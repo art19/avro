@@ -19,6 +19,8 @@ gem 'echoe'
 gem 'multi_json'
 gem 'snappy'
 gem 'test-unit'
+# memory_profiler 0.9.13 requires Ruby 2.3.8+
+gem 'memory_profiler', '<= 0.9.12'
 
 # rdoc 6.2.1 requires Ruby 2.4+
 gem 'rdoc', '<= 6.2.0'
